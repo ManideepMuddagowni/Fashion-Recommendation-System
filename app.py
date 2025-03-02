@@ -45,7 +45,7 @@ def load_data():
 def load_models():
     try:
         # Configure Gemini AI
-        genai.configure(api_key="AIzaSyCF5NyCk8LvDATLUtEsTmcS_NgHBi4Az3Q")
+        genai.configure(api_key=" ")
         gemini_model = genai.GenerativeModel("gemini-1.5-flash")
       
       
@@ -138,7 +138,8 @@ Based on their:
 
 Can these products be combined effectively to create a visually appealing and cohesive outfit? 
 
-**Note:** Combinations of items within the same primary category (e.g., two shirts, two pairs of pants) are generally not considered effective. Combinations of items from different categories (e.g., shirt and pants, shirt and jacket, skirt and top) are typically more successful.
+**Note:** Combinations of items within the same primary category (e.g., two shirts, two pairs of pants) are generally not considered effective. 
+Combinations of items from different categories (e.g., shirt and pants, shirt and jacket, skirt and top) are typically more successful.
 
 Return a JSON object with:
 
